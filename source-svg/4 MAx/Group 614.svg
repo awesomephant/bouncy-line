@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380.181" height="312" viewBox="0 0 380.181 312">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #f70909;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #f70909;
+        font-size: 72px;
+        font-family: SelfModernTrial-Regular, Self Modern Trial;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_614" data-name="Group 614" transform="translate(-1453.418 -452)">
+    <g id="Rectangle_66" data-name="Rectangle 66" class="cls-1" transform="translate(1485 452)">
+      <rect class="cls-3" width="312" height="312"/>
+      <rect class="cls-4" x="1.5" y="1.5" width="309" height="309"/>
+    </g>
+    <text id="Engage" class="cls-2" transform="matrix(0.985, -0.174, 0.174, 0.985, 1453.418, 589.66)"><tspan x="55.4" y="71">Engage</tspan></text>
+  </g>
+</svg>

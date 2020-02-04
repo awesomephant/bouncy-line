@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="475.696" height="474.511" viewBox="0 0 475.696 474.511">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #ff9d00;
+      }
+
+      .cls-2 {
+        font-size: 72px;
+        font-family: SelfModernTrial-Regular, Self Modern Trial;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_611" data-name="Group 611" transform="translate(-64.152 -193.744)">
+    <g id="Polygon_1" data-name="Polygon 1" class="cls-1" transform="matrix(0.719, 0.695, -0.695, 0.719, 280.886, 193.744)">
+      <path class="cls-3" d="M 357.4028930664062 310.5 L 2.597113609313965 310.5 L 180 3.001663684844971 L 357.4028930664062 310.5 Z"/>
+      <path class="cls-4" d="M 180 6.0032958984375 L 5.1942138671875 309 L 354.8057861328125 309 L 180 6.0032958984375 M 180 0 L 360 312 L 0 312 L 180 0 Z"/>
+    </g>
+    <g id="Group_593" data-name="Group 593" transform="translate(130.487 395.012) rotate(9)">
+      <text id="Play_" data-name="Play
+" class="cls-2"><tspan x="64.602" y="71">Play</tspan></text>
+    </g>
+  </g>
+</svg>

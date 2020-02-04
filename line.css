@@ -1,0 +1,28 @@
+path {
+    fill: none;
+    stroke: #091cf7;
+    stroke-width: 3px;
+}
+
+text {
+    fill: #f70909;
+    font-size: 72px;
+    font-family: SelfModernTrial-Regular, Self Modern Trial;
+}
+
+rect {
+    fill: white;
+    stroke: #f70909;
+    stroke-width: 3px;
+}
+
+path.type {
+    fill: #047931;
+    stroke: none;
+}
+
+circle {
+    fill: white;
+    stroke: #047931;
+    stroke-width: 3px;
+}

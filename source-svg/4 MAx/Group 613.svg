@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="345.602" height="345.602" viewBox="0 0 345.602 345.602">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #047931;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #047931;
+        font-size: 72px;
+        font-family: SelfModernTrial-Regular, Self Modern Trial;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_613" data-name="Group 613" transform="translate(-811 -467)">
+    <g id="Ellipse_2" data-name="Ellipse 2" class="cls-1" transform="matrix(0.985, -0.174, 0.174, 0.985, 811, 518.804)">
+      <circle class="cls-3" cx="149.165" cy="149.165" r="149.165"/>
+      <circle class="cls-4" cx="149.165" cy="149.165" r="147.665"/>
+    </g>
+    <text id="Listen" class="cls-2" transform="matrix(0.985, 0.174, -0.174, 0.985, 860.483, 566.359)"><tspan x="28.484" y="71">Listen</tspan></text>
+  </g>
+</svg>
