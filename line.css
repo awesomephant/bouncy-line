@@ -1,31 +1,48 @@
+:root {
+    --yellow: #ff9d00;
+    --pink: #ff9aec;
+    --green: #047931;
+    --red: #f70909;
+    --blue: #091cf7;
+    --stroke-width: 3px;
+}
+
 .line {
     fill: none;
-    stroke: #091cf7;
+    stroke: var(--blue);
     stroke-width: 3px;
 }
 
-text {
-    fill: #f70909;
-    font-size: 72px;
-    font-family: SelfModernTrial-Regular, Self Modern Trial;
+g {
+    cursor: pointer;
 }
 
-rect {
+.shape {
     fill: white;
-    stroke: #f70909;
-    stroke-width: 3px;
+    stroke-width: var(--stroke-width);
 }
 
-path.type {
-    fill: #047931;
+.type {
     stroke: none;
+    fill: var(--blue);
 }
 
-circle {
-    fill: white;
-    stroke: #047931;
-    stroke-width: 3px;
+.play:hover .type {fill: var(--yellow)}
+.play:hover .shape { stroke: var(--yellow)}
+
+.read:hover .type {fill: var(--pink)}
+.read:hover .shape { stroke: var(--pink)}
+
+.listen:hover .type {fill: var(--green)}
+.listen:hover .shape { stroke: var(--green)}
+
+.engage:hover .type {fill: var(--red)}
+.engage:hover .shape { stroke: var(--red)}
+
+.clone {
+    opacity: 0;
 }
-path {
-    fill: white;
+
+.rg:hover .clone {
+    opacity: 1;
 }
