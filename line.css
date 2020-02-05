@@ -1,4 +1,4 @@
-path {
+.line {
     fill: none;
     stroke: #091cf7;
     stroke-width: 3px;
@@ -25,4 +25,7 @@ circle {
     fill: white;
     stroke: #047931;
     stroke-width: 3px;
+}
+path {
+    fill: white;
 }
