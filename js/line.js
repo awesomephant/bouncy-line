@@ -4,7 +4,7 @@ const config = {
     noiseAmplitude: 100,
     noiseFrequency: .002,
     speed: .005,
-    slope: .2,
+    slope: 0,
 }
 let points = []
 let path, h, engage, listen, read, play;
@@ -29,8 +29,12 @@ function animate() {
         points[i].currentY = h / 2 + (noise.simplex2(points[i].currentX * config.noiseFrequency + offset, 3) * config.noiseAmplitude) - points[i].currentX * config.slope
     }
 
-    engage.setAttribute('transform', `translate(${points[30].currentX} ${points[30].currentY - 100})`)
-    listen.setAttribute('transform', `translate(${points[120].currentX} ${points[120].currentY - 100})`)
+    let interval = config.pointCount / 5;
+
+    play.setAttribute('transform',   `translate(${points[interval * 1].currentX} ${points[20].currentY})  scale(.7)`)
+    read.setAttribute('transform',   `translate(${points[interval * 2].currentX} ${points[50].currentY})  scale(.7)`)
+    listen.setAttribute('transform', `translate(${points[interval * 3].currentX} ${points[80].currentY})  scale(.7)`)
+    engage.setAttribute('transform', `translate(${points[interval * 4].currentX} ${points[120].currentY}) scale(.7)`)
 
     path.setAttribute('d', generatePathString(points))
 
@@ -41,6 +45,9 @@ function init() {
     h = window.innerHeight
     engage = document.querySelector('#group-engage')
     listen = document.querySelector('#group-listen')
+    read = document.querySelector('#group-read')
+    play = document.querySelector('#group-play')
+    
     svgEl.setAttribute('width', w)
     svgEl.setAttribute('height', h)
 
@@ -57,6 +64,7 @@ function init() {
 
     path = document.createElementNS('http://www.w3.org/2000/svg', 'path')
     path.setAttribute('d', generatePathString(points))
+    path.setAttribute('class', 'line')
     svgEl.insertAdjacentElement('afterbegin', path)
 
     animate()
