@@ -87,7 +87,7 @@ function init() {
         for (let j = 0; j < config.stackCount; j++) {
             let clone = buttons[i].rg.cloneNode(true);
             clone.setAttribute('class', `clone`)
-            clone.setAttribute('transform', `translate(${j * -10} ${j * -10})`)
+            clone.setAttribute('transform', `translate(${j * -10} ${j * -15})`)
             buttons[i].rg.appendChild(clone)
         }
 
